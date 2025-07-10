@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 #include<math.h>
 void main ()
@@ -28,4 +29,36 @@ void main ()
     default: printf("enter value : %d" , a);
         break;
     }
+=======
+#include<stdio.h>
+#include<math.h>
+void main ()
+{
+    int a , b ;
+
+    printf("enter a number :");
+    scanf("%d",&a);
+
+    switch (a)
+    {
+    case 10:b = pow(10 , 2) ;
+            printf("square of number :%d", b);
+            break;
+    
+    case 9 : printf("enter different value \n");
+    main ();
+    break;
+
+    case 2 : b = a*99 ;
+        printf("%d" , b);
+        break;
+
+    case 3 : b = a*99 ;
+        printf("%d" , b);
+        break;
+
+    default: printf("enter value : %d" , a);
+        break;
+    }
+>>>>>>> 5285845370b9ff8706ce2f298141264c24198a9c
 }

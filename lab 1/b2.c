@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 void main ()
 {
@@ -18,4 +19,26 @@ void main ()
     printf("area of triangle = %f", area);
 
     
+=======
+#include<stdio.h>
+void main ()
+{
+    int h , b , l ;
+    float area ;
+
+    printf("Enter height :");
+    scanf("%d",&h);
+
+    printf("Enter base :");
+    scanf("%d",&b);
+
+    printf("Enter length :");
+    scanf("%d",&l);
+
+    area=(l*b*h)/2;
+
+    printf("area of triangle = %f", area);
+
+    
+>>>>>>> 5285845370b9ff8706ce2f298141264c24198a9c
 }
